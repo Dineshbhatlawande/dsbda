@@ -1,0 +1,32 @@
+ 1D  column =sum(Patellength)
+ 
+ 2D   column=Relatinship
+      row=SuM(age)
+      color=gender
+      
+ 3D  column=sum(hours_per_weak)
+     row=sum(age)
+     shape=gender
+     color=income
+     detail=education
+     
+temporal
+             column=education
+             row=flnwgt,capital-loss
+             automatic=line(flnwgt,capital-loss)
+             
+ multi dimensional
+            column=income,race,occumption
+            row=age
+            color=occumption
+   tree 
+       size=age
+       color=age
+       label=income,race,occumption
+       
+    network
+          size =capital-loss
+          label=income,education
+          color=fnlwgt
+          
+     
